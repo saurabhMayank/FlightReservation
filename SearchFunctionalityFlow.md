@@ -12,6 +12,10 @@
 - If between a source and destination direct flights are not found
   - In that case Display Service fetches all the flights originating from Source at given date and time from schedule model
   - Treat all the intermediary destination as sources and find flights originating from these IDs after flight from Source has reached the IDs
+  - For Example Source A has 4 flights going to F1 -> ID1, F2 -> ID2, F3 -> ID3, F4 -> ID4
+  - From ID2 -> F5 goes to destination B and From ID3 -> F6 goes to destination B
+  - F5 goes to destination B after F4 has reached -> So system will list that flight as an option
+  - Can also code this if required -> Ask neetesh if needed
   - After that list them down
   - <img width="835" alt="Screenshot 2024-03-30 at 7 24 39 PM" src="https://github.com/saurabhMayank/FlightReservation/assets/82028762/e1e62095-570a-409a-b100-b8eb77a49cef">
 
