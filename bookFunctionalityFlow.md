@@ -14,4 +14,5 @@
 - If yes -> then one ticket will be booked and Booking object will be returned -> for booking ticket -> Also reduce seat capacity in scheduled flight
 - If it is connecting then -> two tickets will be booked from From Source to ID and from ID to destination -> Seat capacity reduced in both the scheduled flights
 - There is 1 to 1 mapping between Booking Object and Flight. For Connecting Flight -> Multiple Booking Objects will be generated
-- <img width="860" alt="Screenshot 2024-03-31 at 11 17 35 AM" src="https://github.com/saurabhMayank/FlightReservation/assets/82028762/942fe176-0086-4f74-89e4-51376b6e9802">
+- <img width="894" alt="Screenshot 2024-03-31 at 12 00 16 PM" src="https://github.com/saurabhMayank/FlightReservation/assets/82028762/79258095-1c75-4bf4-a29a-c4439332a6d5">
+
